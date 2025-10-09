@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Director - Ubah Produk Jadi Cerita Viral</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #020617; /* slate-950 */
+        }
+        .hero-gradient {
+            background-image: radial-gradient(circle at top, rgba(79, 70, 229, 0.2), transparent 40%);
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+        }
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in-section.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .phone-mockup {
+            position: relative;
+            width: 100%;
+            max-width: 280px; /* Lebar ponsel */
+            aspect-ratio: 9 / 19.5; /* Rasio layar modern */
+            background: #111;
+            border-radius: 40px;
+            padding: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5), inset 0 0 2px 2px #000;
+        }
+        .phone-mockup-screen {
+            background: #000;
+            border-radius: 28px;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        .phone-mockup-screen iframe,
+        .phone-mockup-screen blockquote {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .preview-img { object-fit: cover; width: 100%; height: 100%; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in { animation: fadeIn 0.5s ease-out forwards; }
+    </style>
+</head>
+<body class="text-slate-300">
+
+    <!-- 1. Header / Navigasi -->
+    <header class="bg-slate-950/70 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-800">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white">Virtual Director</a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#fitur" class="hover:text-indigo-400 transition-colors">Fitur</a>
+                <a href="#demo" class="hover:text-indigo-400 transition-colors">Live Demo</a>
+                <a href="#harga" class="hover:text-indigo-400 transition-colors">Harga</a>
+                <a href="#faq" class="hover:text-indigo-400 transition-colors">FAQ</a>
+            </div>
+            <a href="https://lynk.id/vidcraftdigital/y81kdqqxjr5w" target="_blank" class="cta-button bg-indigo-600 text-white font-semibold py-2 px-5 rounded-lg hover:bg-indigo-500">
+                Dapatkan Akses
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. Hero Section -->
+        <section class="relative hero-gradient pt-24 pb-32 text-center overflow-hidden">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
+                    Ubah Produk Jadi Cerita,<br>Ciptakan Konten <span class="text-indigo-400">Viral dalam Sekejap.</span>
+                </h1>
+                <p class="max-w-2xl mx-auto text-lg text-slate-400 mb-8">
+                    Hasilkan video affiliator profesional sepenuhnya dengan AI. Tanpa rekam video, tanpa pusing cari ide.
+                </p>
+                <a href="#harga" class="cta-button inline-block bg-indigo-600 text-white text-lg font-bold py-4 px-8 rounded-lg hover:bg-indigo-500">
+                    Dapatkan Akses Lifetime Sekarang
+                </a>
+            </div>
+        </section>
+
+        <!-- 3. Cara Kerja (3 Langkah) -->
+        <section class="py-20 bg-slate-900 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Hanya 3 Langkah Mudah</h2>
+                    <p class="text-slate-400 mt-2">Proses cepat dan intuitif untuk hasil maksimal.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <!-- Step 1 -->
+                    <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                        <div class="bg-indigo-600/20 text-indigo-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">1. Unggah Produk</h3>
+                        <p class="text-slate-400">Masukkan gambar dan deskripsi singkat produk Anda.</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                        <div class="bg-indigo-600/20 text-indigo-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22h6a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v5"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="m3 12.87 3.37-3.38a1 1 0 0 1 1.42 0l2.36 2.36a1 1 0 0 0 1.42 0L15 9.5"/><path d="m3 18 4-4"/><path d="m10 18 1.5-1.5"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">2. Pilih Gaya Konten</h3>
+                        <p class="text-slate-400">Pilih template cerita yang paling sesuai dengan target audiens.</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                        <div class="bg-indigo-600/20 text-indigo-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="m10 14-2 2 2 2"/><path d="m14 18 2-2-2-2"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">3. Dapatkan Video AI</h3>
+                        <p class="text-slate-400">Terima video jadi, lengkap dengan suara & musik siap upload.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 4. Live Demo Interaktif (Terintegrasi) -->
+        <section id="demo" class="py-20 fade-in-section bg-slate-950/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Coba Langsung Virtual Director</h2>
+                    <p class="text-slate-400 mt-2 max-w-2xl mx-auto">Rasakan kemudahannya. Isi detail produk di bawah dan lihat simulasi alur cerita yang dihasilkan secara instan.</p>
+                </div>
+                
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl shadow-indigo-900/20">
+                    <div class="flex flex-col lg:flex-row gap-8">
+                        <!-- Control Panel (From Prototype) -->
+                        <aside class="w-full lg:w-1/3 xl:w-1/4">
+                             <form id="asset-form">
+                                <div class="space-y-6">
+                                    <div>
+                                        <h2 class="text-lg font-semibold mb-3 text-indigo-400">1. Gambar Produk</h2>
+                                        <div class="relative border-2 border-dashed border-slate-600 rounded-lg p-4 text-center cursor-pointer hover:bg-slate-700/50 transition-colors">
+                                            <label for="product-file" class="flex flex-col items-center justify-center space-y-2 cursor-pointer">
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-slate-500"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.59a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg>
+                                                <span class="font-medium text-slate-300">Ganti Gambar (Simulasi)</span>
+                                                <span id="file-name" class="text-xs text-slate-400">tas_ransel_keren.jpeg</span>
+                                            </label>
+                                            <input id="product-file" type="file" class="hidden">
+                                            <div id="product-preview" class="absolute inset-0 rounded-lg overflow-hidden pointer-events-none">
+                                                <img src="https://raw.githubusercontent.com/wahyutifty/aset-ai-image-director-affilate/refs/heads/main/b62f0da60a9d48b0b9905ea3238a9745%7E.jpeg" alt="product preview" class="preview-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h2 id="description-label" class="text-lg font-semibold mb-3 text-indigo-400">2. Deskripsi Produk</h2>
+                                        <textarea id="product-description" rows="6" class="w-full bg-slate-800 border border-slate-700 rounded-md p-2 focus:ring-2 focus:ring-indigo-500 outline-none"></textarea>
+                                    </div>
+                                    <div>
+                                        <h2 class="text-lg font-semibold mb-3 text-indigo-400">3. Gaya Konten</h2>
+                                        <select id="content-style" class="w-full bg-slate-800 border border-slate-700 rounded-md p-2.5 focus:ring-2 focus:ring-indigo-500 outline-none">
+                                            <option value="voice_over" disabled>Review Cepat (Pro)</option>
+                                            <option value="soft_selling" disabled>Storytelling POV (Pro)</option>
+                                            <option value="presenting" selected>Presentasi (Talking Head)</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <button id="generate-btn" type="submit" class="w-full bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-indigo-700 transition-all duration-300 flex items-center justify-center space-x-2 disabled:bg-slate-500 disabled:cursor-not-allowed mt-2 cta-button">
+                                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="m10 15.5 2-2 2 2"></path><path d="m12 13.5v-6"></path></svg>
+                                            <span>Buat Alur Cerita!</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </aside>
+
+                        <!-- Main Content Area (From Prototype) -->
+                        <main class="w-full lg:w-2/3 xl:w-3/4">
+                            <div id="results-container" class="h-full">
+                                <div id="initial-state" class="flex flex-col items-center justify-center h-full text-center text-slate-500 p-8 bg-slate-800/50 rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-16 h-16 mb-4"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                                    <h2 class="text-2xl font-semibold text-slate-400">Hasil Akan Muncul di Sini</h2>
+                                    <p class="mt-2 max-w-md">Klik tombol "Buat Alur Cerita" untuk melihat hasil simulasi.</p>
+                                </div>
+                                <div id="loading-state" class="hidden flex-col items-center justify-center h-full text-center">
+                                    <svg class="animate-spin h-10 w-10 text-indigo-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+                                    <h2 class="text-2xl font-semibold text-slate-400 mt-4">Mensimulasikan Hasil...</h2>
+                                </div>
+                                <div id="output-state" class="hidden">
+                                    <div id="tiktok-script-section" class="mb-8"></div>
+                                    <div class="flex justify-between items-center mb-4">
+                                        <h2 class="text-2xl font-bold text-white">Alur Cerita Visual</h2>
+                                        <button class="bg-slate-600 text-white font-semibold py-2 px-4 rounded-md flex items-center justify-center space-x-2 cursor-not-allowed" disabled title="Fitur unduh tersedia di versi Pro">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708-.708l3 3z"/></svg>
+                                            <span>Unduh Semua (Pro)</span>
+                                        </button>
+                                    </div>
+                                    <div id="image-results" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Pratinjau Video Hasil -->
+        <section class="py-20 bg-slate-900 fade-in-section">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Lihat Kualitas Hasil Akhir</h2>
+                    <p class="text-slate-400 mt-2">Ini adalah contoh konten yang dibuat oleh pengguna kami.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 justify-items-center">
+                    <div class="phone-mockup">
+                        <div class="phone-mockup-screen">
+                            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@maverick.wearr/video/7557268454718409996" data-video-id="7557268454718409996" style="max-width: 605px;min-width: 325px;" > <section></section> </blockquote>
+                        </div>
+                    </div>
+                    <div class="phone-mockup">
+                        <div class="phone-mockup-screen">
+                            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@maverick.wearr/video/7556948753383525643" data-video-id="7556948753383525643" style="max-width: 605px;min-width: 325px;" > <section></section> </blockquote>
+                        </div>
+                    </div>
+                    <div class="phone-mockup">
+                        <div class="phone-mockup-screen">
+                             <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@maverick.wearr/video/7557227780862250251" data-video-id="7557227780862250251" style="max-width: 605px;min-width: 325px;" > <section></section> </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 6. Detail Fitur -->
+        <section id="fitur" class="py-20 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Gaya Konten untuk Semua Kebutuhan</h2>
+                    <p class="text-slate-400 mt-2">Pilih dari berbagai template yang terbukti efektif.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl">
+                        <h3 class="text-xl font-bold text-indigo-400 mb-3">Review Cepat (VO)</h3>
+                        <ul class="space-y-2 text-slate-400 list-disc list-inside">
+                            <li>Cepat dan to-the-point</li>
+                            <li>Fokus pada keunggulan produk</li>
+                            <li>Cocok untuk audiens yang suka ringkasan</li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl">
+                        <h3 class="text-xl font-bold text-indigo-400 mb-3">Storytelling POV (Soft Selling)</h3>
+                        <ul class="space-y-2 text-slate-400 list-disc list-inside">
+                            <li>Membangun koneksi emosional</li>
+                            <li>Menjual lewat cerita sehari-hari</li>
+                            <li>Tingkat konversi lebih tinggi</li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl">
+                        <h3 class="text-xl font-bold text-indigo-400 mb-3">Presentasi (Talking Head)</h3>
+                        <ul class="space-y-2 text-slate-400 list-disc list-inside">
+                            <li>Membangun otoritas dan kepercayaan</li>
+                            <li>Penjelasan fitur yang mendalam</li>
+                            <li>Ideal untuk produk teknis atau jasa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 7. Testimonial -->
+        <section class="py-20 bg-slate-900 fade-in-section">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Apa Kata Mereka?</h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                        <p class="text-slate-300 italic mb-4">"Virtual Director ini game-changer! Saya bisa produksi ide konten untuk 5 produk dalam sehari. Biasanya butuh seminggu. Wajib coba buat para affiliate."</p>
+                        <p class="font-bold text-white">- Andini, TikTok Affiliate</p>
+                    </div>
+                     <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                        <p class="text-slate-300 italic mb-4">"Sebagai SMM, workflow jadi jauh lebih efisien. Saya bisa presentasi puluhan ide konten ke klien dalam hitungan menit. Klien suka, saya pun hemat waktu."</p>
+                        <p class="font-bold text-white">- Bima S., Digital Agency Owner</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Pricing Section (NEW) -->
+        <section id="harga" class="py-20 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Dapatkan Akses Penuh Sekarang</h2>
+                    <p class="text-slate-400 mt-2 max-w-xl mx-auto">Satu kali bayar untuk akses selamanya. Tidak ada biaya bulanan, tidak ada biaya tersembunyi.</p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 md:p-10 max-w-2xl mx-auto shadow-2xl shadow-indigo-900/20 text-center">
+                    <h3 class="text-2xl font-bold text-indigo-400 mb-2">Akses Lifetime</h3>
+                    <p class="text-slate-400 mb-6">Penawaran Spesial Peluncuran</p>
+                    <div class="mb-8">
+                        <span class="text-6xl font-extrabold text-white">Rp99</span>
+                        <span class="text-lg text-slate-400 ml-1">ribu</span>
+                    </div>
+                    <ul class="text-left space-y-4 mb-8 inline-block">
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-slate-300">Akses Lifetime (Seumur Hidup)</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-slate-300">Unlimited Video Export</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-slate-300">Semua Fitur Premium Terbuka</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-slate-300">Grup & Support Prioritas</span>
+                        </li>
+                         <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="text-slate-300">Update Fitur Gratis Selamanya</span>
+                        </li>
+                    </ul>
+                    <a href="https://lynk.id/vidcraftdigital/y81kdqqxjr5w" target="_blank" class="cta-button w-full block bg-indigo-600 text-white text-lg font-bold py-4 px-8 rounded-lg hover:bg-indigo-500">
+                        Dapatkan Akses Sekarang
+                    </a>
+                    <p class="text-xs text-slate-500 mt-4">Anda akan diarahkan ke halaman pembayaran yang aman.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. FAQ (Tanya Jawab) -->
+        <section id="faq" class="py-20 fade-in-section">
+            <div class="container mx-auto px-6 max-w-3xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Pertanyaan Umum</h2>
+                </div>
+                <div class="space-y-4">
+                    <details class="bg-slate-900 border border-slate-800 p-6 rounded-lg cursor-pointer" open>
+                        <summary class="font-semibold text-lg text-white">Apakah saya perlu merekam video atau menunjukkan wajah?</summary>
+                        <p class="text-slate-400 mt-3">Tidak perlu sama sekali! Virtual Director secara otomatis akan membuatkan seluruh video untuk Anda menggunakan AI, lengkap dengan visual produk, sulih suara (voice-over), dan musik latar. Anda tidak perlu merekam atau tampil di depan kamera.</p>
+                    </details>
+                    <details class="bg-slate-900 border border-slate-800 p-6 rounded-lg cursor-pointer">
+                        <summary class="font-semibold text-lg text-white">Apakah video yang dihasilkan bebas hak cipta?</summary>
+                        <p class="text-slate-400 mt-3">Tentu saja. Semua aset video dan audio yang kami hasilkan sepenuhnya aman untuk Anda gunakan di platform mana pun seperti TikTok, Instagram Reels, dan YouTube Shorts tanpa perlu khawatir tentang klaim hak cipta.</p>
+                    </details>
+                    <details class="bg-slate-900 border border-slate-800 p-6 rounded-lg cursor-pointer">
+                        <summary class="font-semibold text-lg text-white">Bagaimana saya mendapatkan akses setelah membayar?</summary>
+                        <p class="text-slate-400 mt-3">Setelah pembayaran berhasil, Anda akan langsung mendapatkan link akses ke tool kami melalui email dan WhatsApp beserta panduan lengkap untuk memulai.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Final CTA -->
+        <section class="py-20 fade-in-section">
+             <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Masih Ragu?</h2>
+                 <p class="max-w-xl mx-auto text-lg text-slate-400 mb-8">
+                    Tanyakan apa saja kepada tim kami. Kami siap membantu Anda mengubah cara Anda membuat konten selamanya.
+                </p>
+                <a href="https://wa.me/6288985584050" target="_blank" class="cta-button inline-block bg-green-600 text-white text-lg font-bold py-4 px-8 rounded-lg hover:bg-green-500">
+                    Tanya via WhatsApp
+                </a>
+             </div>
+        </section>
+    </main>
+    
+    <!-- 11. Footer -->
+    <footer class="bg-slate-900 border-t border-slate-800">
+        <div class="container mx-auto px-6 py-6 text-center text-slate-500">
+            <p>&copy; 2025 Virtual Director. All rights reserved.</p>
+        </div>
+    </footer>
+
+     <!-- Toast Notification -->
+    <div id="toast" class="fixed bottom-5 right-5 bg-green-500 text-white py-2 px-4 rounded-lg shadow-lg transform translate-y-20 opacity-0 transition-all duration-300 z-50">
+        Pesan notifikasi
+    </div>
+
+    <!-- TikTok Embed Script -->
+    <script async src="https://www.tiktok.com/embed.js"></script>
+    
+    <!-- Integrated Prototype & Fade-in Animation Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // --- Fade-in Animation ---
+            const sections = document.querySelectorAll('.fade-in-section');
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            sections.forEach(section => observer.observe(section));
+
+            // --- Integrated Prototype Logic ---
+            const form = document.getElementById('asset-form');
+            const generateBtn = document.getElementById('generate-btn');
+            const productDescriptionTextarea = document.getElementById('product-description');
+            const states = {
+                initial: document.getElementById('initial-state'),
+                loading: document.getElementById('loading-state'),
+                output: document.getElementById('output-state'),
+            };
+            const imageResultsContainer = document.getElementById('image-results');
+            const tiktokScriptContainer = document.getElementById('tiktok-script-section');
+            const toast = document.getElementById('toast');
+            
+            const mockData = {
+                tiktokScript: `Sumpah, Tas Ransel Xavier ini definisi tas multifungsi! Desainnya keren, unisex, cocok buat ngampus, kerja, atau hangout. Yang paling penting, bahannya waterproof! Jadi aman banget bawa laptop pas cuaca tak terduga. Kompartemennya banyak, ada saku botol di samping. Gak cuma stylish, tapi super praktis dan ringan! Wajib punya banget sih ini. Yuk, langsung sikat di keranjang kuning!`,
+                storyline: [
+                    { title: "The Hook Shot", imageUrl: "https://raw.githubusercontent.com/wahyutifty/aset-ai-image-director-affilate/refs/heads/main/adegan_1_Tas_Ransel_Xavier.png" },
+                    { title: "The Problem/Solution Shot", imageUrl: "https://raw.githubusercontent.com/wahyutifty/aset-ai-image-director-affilate/refs/heads/main/adegan_2_Tas_Ransel_Xavier.png" },
+                    { title: "The Detail Shot (B-Roll)", imageUrl: "https://raw.githubusercontent.com/wahyutifty/aset-ai-image-director-affilate/refs/heads/main/adegan_3_Tas_Ransel_Xavier.png" },
+                    { title: "The Final Look Shot", imageUrl: "https://raw.githubusercontent.com/wahyutifty/aset-ai-image-director-affilate/refs/heads/main/adegan_4_Tas_Ransel_Xavier.png" },
+                ]
+            };
+            
+            const showToast = (message, isError = false) => {
+                toast.textContent = message;
+                toast.className = `fixed bottom-5 right-5 text-white py-2 px-4 rounded-lg shadow-lg transform transition-all duration-300 z-50 ${isError ? 'bg-red-500' : 'bg-green-500'}`;
+                toast.classList.remove('translate-y-20', 'opacity-0');
+                setTimeout(() => { toast.classList.add('translate-y-20', 'opacity-0'); }, 3000);
+            };
+
+            document.body.addEventListener('click', function(e) {
+                if (e.target.closest('.copy-btn')) {
+                    const button = e.target.closest('.copy-btn');
+                    const textToCopy = document.getElementById('tiktok-script-textarea').value;
+                    navigator.clipboard.writeText(textToCopy).then(() => {
+                        showToast('Naskah berhasil disalin!');
+                        const originalText = button.querySelector('span').textContent;
+                        button.querySelector('span').textContent = 'Disalin!';
+                        setTimeout(() => { button.querySelector('span').textContent = originalText; }, 2000);
+                    }).catch(err => showToast('Gagal menyalin teks.', true));
+                }
+            });
+
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                if (!productDescriptionTextarea.value) {
+                    showToast('Harap isi deskripsi produk.', true);
+                    return;
+                }
+
+                states.initial.style.display = 'none';
+                states.output.classList.add('hidden');
+                states.loading.style.display = 'flex';
+                generateBtn.disabled = true;
+
+                setTimeout(() => {
+                    tiktokScriptContainer.innerHTML = `
+                        <h3 class="text-xl font-bold mb-2 text-white">Naskah Dialog (Talking Head)</h3>
+                        <div class="bg-slate-800 p-4 rounded-lg">
+                            <textarea id="tiktok-script-textarea" rows="6" readonly class="w-full bg-slate-700/50 border border-slate-600 rounded-md p-2 text-slate-300 text-sm">${mockData.tiktokScript.trim()}</textarea>
+                            <button class="copy-btn mt-3 w-full bg-slate-600 text-slate-200 font-semibold py-2 px-4 rounded-md hover:bg-slate-700 transition-colors flex items-center justify-center space-x-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/><path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3z"/></svg>
+                                <span>Salin Naskah</span>
+                            </button>
+                        </div>`;
+                    
+                    imageResultsContainer.innerHTML = '';
+                    mockData.storyline.forEach((stage, i) => {
+                        const resultCard = document.createElement('div');
+                        resultCard.className = 'fade-in bg-slate-800 rounded-lg overflow-hidden shadow-lg flex flex-col';
+                        resultCard.style.animationDelay = `${i * 100}ms`;
+                        resultCard.innerHTML = `
+                            <div class="relative aspect-[9/16] group">
+                                <img src="${stage.imageUrl}" alt="${stage.title}" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4 flex-grow flex flex-col">
+                                <h3 class="font-bold text-lg text-white">Foto ${i + 1}: ${stage.title}</h3>
+                                <p class="text-sm text-slate-400 mt-1">Deskripsi singkat untuk adegan ini.</p>
+                            </div>`;
+                        imageResultsContainer.appendChild(resultCard);
+                    });
+                    
+                    states.loading.style.display = 'none';
+                    states.output.classList.remove('hidden');
+                    generateBtn.disabled = false;
+                }, 1000);
+            });
+
+            // Pre-fill form
+            const initialProductDescription = `✏ Deskripsi Produk Tas Ransel Xavier: ✏ \n\n* Ukuran : 30 cm x 16 cm x 45 cm\n* Bahan : D300\n* Kondisi : Baru 100%\n* Berat : 600gr\n* Unisex\n* Waterproof\n* Cocok untuk sekolah, kerja, ngampus`;
+            productDescriptionTextarea.value = initialProductDescription;
+        });
+    </script>
+</body>
+</html>
+
