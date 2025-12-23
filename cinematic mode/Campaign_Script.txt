@@ -1,0 +1,83 @@
+JUDUL: Rahasia kulit cerah dan skin barrier kuat cuma pakai Scarlett Loving Body Lotion! Wangi mewah floral-fruity, bebas lengket, ada 7X Ceramide dan UV Protection. Wajib coba!
+HASHTAGS: #Scarlett #BodyLotion #LotionMencerahkan #SkinBarrier #ScarlettLoving #Ceramide
+
+==========================================
+NASKAH (SCRIPT)
+==========================================
+
+Lotion yang bikin kulit cerah dan wanginya mewah banget? Ini rahasia kulit glowing tanpa rasa lengket. Dengan 7X Ceramide, skin barrier kamu langsung terlindungi. Ada Glutathione dan Niacinamide buat mencerahkan kulit kusam! Plus UV Protection, siap glowing dan wangi floral-fruity segar seharian!
+
+==========================================
+PROMPTS VISUAL
+==========================================
+
+SHOT 1:
+Visual: Close-up sinematik pada wanita muda Asia yang mengenakan atasan pink, memegang botol Scarlett Loving Body Lotion berwarna pink. Dia perlahan mencium aroma lotion di pergelangan tangannya dengan ekspresi puas dan mewah. Latar belakang interior modern yang hangat dan estetik, pencahayaan lembut dari samping.
+
+[Dreamina Prompt]:
+Close-up sinematik pada wanita muda Asia yang mengenakan atasan pink, memegang botol Scarlett Loving Body Lotion berwarna pink. Dia perlahan mencium aroma lotion di pergelangan tangannya dengan ekspresi puas dan mewah. Latar belakang interior modern yang hangat dan estetik, pencahayaan lembut dari samping. Gerakan kamera slow motion fokus pada ekspresi wajah dan produk. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+Close-up sinematik pada wanita muda Asia yang mengenakan atasan pink, memegang botol Scarlett Loving Body Lotion berwarna pink. Dia perlahan mencium aroma lotion di pergelangan tangannya dengan ekspresi puas dan mewah. Latar belakang interior modern yang hangat dan estetik. --script "Lotion yang bikin kulit cerah dan wanginya mewah banget?" --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+Close-up sinematik pada wanita muda Asia yang mengenakan atasan pink, memegang botol Scarlett Loving Body Lotion berwarna pink. Dia perlahan mencium aroma lotion di pergelangan tangannya dengan ekspresi puas dan mewah. Latar belakang interior modern yang hangat dan estetik, pencahayaan lembut dari samping. Gerakan kamera slow motion perlahan. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 2:
+Visual: Close-up (medium shot) sinematik yang fokus pada tangan wanita Asia yang sedang memompa Scarlett Loving Body Lotion berwarna pink ke telapak tangannya. Kemudian, dia mengaplikasikannya ke lengan. Kulit lengan yang halus dan cerah terlihat berkilau, tanpa efek lengket. Model memakai atasan pink.
+
+[Dreamina Prompt]:
+Close-up (medium shot) sinematik yang fokus pada tangan wanita Asia yang sedang memompa Scarlett Loving Body Lotion berwarna pink ke telapak tangannya. Kemudian, dia mengaplikasikannya ke lengan. Kulit lengan yang halus dan cerah terlihat berkilau, tanpa efek lengket. Model memakai atasan pink. Gerakan kamera slow motion mengikuti alur aplikasi lotion. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+Close-up (medium shot) sinematik fokus pada tangan wanita Asia yang memompa Scarlett Loving Body Lotion berwarna pink ke telapak tangannya, lalu mengaplikasikannya ke lengan. Kulit terlihat glowing dan halus. Model memakai atasan pink. --script "Ini rahasia kulit glowing tanpa rasa lengket." --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+Close-up (medium shot) sinematik yang fokus pada tangan wanita Asia yang sedang memompa Scarlett Loving Body Lotion berwarna pink ke telapak tangannya. Kemudian, dia mengaplikasikannya ke lengan. Kulit lengan yang halus dan cerah terlihat berkilau, tanpa efek lengket. Model memakai atasan pink. Gerakan kamera slow motion mengikuti pergerakan tangan. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 3:
+Visual: Ultra close-up sinematik pada kulit lengan wanita Asia yang sudah diaplikasikan Scarlett Loving Body Lotion, menunjukkan tekstur kulit yang sangat lembap, sehat, dan kenyal. Pencahayaan fokus menyorot kilauan kulit yang sehat. Latar belakang lembut, Model mengenakan atasan pink.
+
+[Dreamina Prompt]:
+Ultra close-up sinematik pada kulit lengan wanita Asia yang sudah diaplikasikan Scarlett Loving Body Lotion, menunjukkan tekstur kulit yang sangat lembap, sehat, dan kenyal. Pencahayaan fokus menyorot kilauan kulit yang sehat. Model mengenakan atasan pink. Gerakan kamera slow motion zoom in perlahan pada tekstur kulit. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+Ultra close-up sinematik pada kulit lengan wanita Asia yang sudah diaplikasikan Scarlett Loving Body Lotion, menunjukkan tekstur kulit yang sangat lembap dan kenyal, menonjolkan fungsi 7X Ceramide. Model mengenakan atasan pink. --script "Dengan 7X Ceramide, skin barrier kamu langsung terlindungi." --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+Ultra close-up sinematik pada kulit lengan wanita Asia yang sudah diaplikasikan Scarlett Loving Body Lotion, menunjukkan tekstur kulit yang sangat lembap, sehat, dan kenyal. Pencahayaan fokus menyorot kilauan kulit yang sehat. Model mengenakan atasan pink. Gerakan kamera slow motion. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 4:
+Visual: Medium shot sinematik. Wanita Asia mengenakan atasan pink, tersenyum ke arah kamera sambil menunjukkan kedua lengan bawahnya yang tampak cerah, merata, dan sehat, hasil dari penggunaan Body Lotion. Ekspresi percaya diri. Latar belakang interior modern cerah.
+
+[Dreamina Prompt]:
+Medium shot sinematik. Wanita Asia mengenakan atasan pink, tersenyum ke arah kamera sambil menunjukkan kedua lengan bawahnya yang tampak cerah, merata, dan sehat. Ekspresi percaya diri. Latar belakang interior modern cerah. Gerakan kamera slow motion memperlihatkan perbandingan kulit sebelum dan sesudah yang lebih cerah. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+Medium shot sinematik. Wanita Asia mengenakan atasan pink, tersenyum ke arah kamera sambil menunjukkan kedua lengan bawahnya yang tampak cerah dan merata, hasil dari Glutathione dan Niacinamide. Latar belakang interior modern cerah. --script "Ada Glutathione dan Niacinamide buat mencerahkan kulit kusam!" --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+Medium shot sinematik. Wanita Asia mengenakan atasan pink, tersenyum ke arah kamera sambil menunjukkan kedua lengan bawahnya yang tampak cerah, merata, dan sehat. Ekspresi percaya diri. Latar belakang interior modern cerah. Gerakan kamera slow motion. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 5:
+Visual: Full body shot sinematik. Wanita Asia mengenakan atasan pink, berdiri di dekat jendela besar dengan cahaya alami yang masuk, memegang botol Scarlett Loving Body Lotion (botol pink). Dia menatap ke luar jendela dengan senyum siap beraktivitas, menunjukkan kulitnya yang tampak terlindungi oleh UV Protection.
+
+[Dreamina Prompt]:
+Full body shot sinematik. Wanita Asia mengenakan atasan pink, berdiri di dekat jendela besar dengan cahaya alami yang masuk, memegang botol Scarlett Loving Body Lotion (botol pink). Dia menatap ke luar jendela dengan senyum siap beraktivitas. Gerakan kamera slow motion, dolly out perlahan. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+Full body shot sinematik. Wanita Asia mengenakan atasan pink, berdiri di dekat jendela besar dengan cahaya alami yang masuk, memegang botol Scarlett Loving Body Lotion (botol pink). Dia tersenyum siap beraktivitas, kulit terlihat terlindungi. --script "Plus UV Protection, siap glowing seharian!" --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+Full body shot sinematik. Wanita Asia mengenakan atasan pink, berdiri di dekat jendela besar dengan cahaya alami yang masuk, memegang botol Scarlett Loving Body Lotion (botol pink). Dia menatap ke luar jendela dengan senyum siap beraktivitas, menunjukkan kulitnya yang tampak terlindungi. Gerakan kamera slow motion. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
