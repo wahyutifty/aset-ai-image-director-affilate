@@ -1,0 +1,83 @@
+JUDUL: Stop garuk-garuk! Ini rahasia kulit cerah, lembap, dan skin barrier kuat! ✨ #ScarlettWhitening #BodyLotionViral #7XCermide
+HASHTAGS: #Scarlett #BodyLotion #SkinBarrier #MencerahkanKulit #ScarlettLoving #Ceramide
+
+==========================================
+NASKAH (SCRIPT)
+==========================================
+
+Kulit kering, kusam, dan gatal? Itu tandanya skin barrier kamu rusak! Aku nemu solusi body lotion terbaik: Scarlett Loving Fragrance Body Lotion. Ada 7X Ceramide buat perkuat skin barrier, Glutathione dan Niacinamide buat mencerahkan. Wanginya floral-fruity manis segar, ada UV Protection juga! Wajib coba!
+
+==========================================
+PROMPTS VISUAL
+==========================================
+
+SHOT 1:
+Visual: CLOSE UP, Realistis, gaya UGC, Tangan wanita Asia (memakai atasan kaos pink muda) menggaruk lengan bawahnya yang terlihat kering dan sedikit bersisik. Ekspresi sedikit frustrasi. Pencahayaan alami. Latar belakang dinding kamar berwarna abu muda yang hangat.
+
+[Dreamina Prompt]:
+CLOSE UP, Realistis, gaya UGC, Tangan wanita Asia (memakai atasan kaos pink muda) menggaruk lengan bawahnya yang terlihat kering dan sedikit bersisik. Ekspresi sedikit frustrasi. Gerakan tangan lambat dan fokus. Latar belakang dinding kamar berwarna abu muda yang hangat. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+CLOSE UP, Realistis, gaya UGC, Tangan wanita Asia (memakai atasan kaos pink muda) menggaruk lengan bawahnya yang terlihat kering dan sedikit bersisik. Ekspresi sedikit frustrasi. Latar belakang dinding kamar berwarna abu muda yang hangat. --script "Kulit kering, kusam, dan gatal?" --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+CLOSE UP, Realistis, gaya UGC, Tangan wanita Asia (memakai atasan kaos pink muda) menggaruk lengan bawahnya yang terlihat kering dan sedikit bersisik. Ekspresi sedikit frustrasi. Gerakan lambat, fokus pada tekstur kulit yang kering. Latar belakang dinding kamar berwarna abu muda yang hangat. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 2:
+Visual: MEDIUM SHOT, Realistis, gaya UGC, Wanita Asia (memakai atasan kaos pink muda) menatap kamera sambil memegang botol Scarlett Whitening Loving Fragrance Body Lotion (Botol pink muda, label fuchsia) di depan wajah. Fokus tajam pada botol dan label '7X Ceramide'. Latar belakang kamar tidur estetik dengan dekorasi kayu.
+
+[Dreamina Prompt]:
+MEDIUM SHOT, Realistis, gaya UGC, Wanita Asia (memakai atasan kaos pink muda) menatap kamera sambil memegang botol Scarlett Whitening Loving Fragrance Body Lotion (Botol pink muda, label fuchsia) di depan wajah. Fokus tajam pada botol dan label '7X Ceramide'. Gerakan kamera slow motion mendekat ke produk. Latar belakang kamar tidur estetik dengan dekorasi kayu. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+MEDIUM SHOT, Realistis, gaya UGC, Wanita Asia (memakai atasan kaos pink muda) memegang botol Scarlett Whitening Loving Fragrance Body Lotion (Botol pink muda, label fuchsia) di depan wajah. Fokus tajam pada botol. Latar belakang kamar tidur estetik dengan dekorasi kayu. --script "Itu tandanya skin barrier kamu rusak!" --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+MEDIUM SHOT, Realistis, gaya UGC, Wanita Asia (memakai atasan kaos pink muda) menatap kamera sambil memegang botol Scarlett Whitening Loving Fragrance Body Lotion (Botol pink muda, label fuchsia) di depan wajah. Fokus tajam pada botol. Gerakan kamera slow motion menunjukkan detail botol. Latar belakang kamar tidur estetik dengan dekorasi kayu. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 3:
+Visual: CLOSE UP, Realistis, gaya UGC, Tangan wanita Asia (memakai atasan kaos pink muda) memencet lotion putih creamy dari botol Scarlett Loving ke telapak tangan. Kemudian, tangan tersebut mulai mengoleskan lotion secara merata ke lengan. Fokus pada kehalusan tekstur dan mudah menyerap. Latar belakang detail meja rias.
+
+[Dreamina Prompt]:
+CLOSE UP, Realistis, gaya UGC, Tangan wanita Asia (memakai atasan kaos pink muda) memencet lotion putih creamy dari botol Scarlett Loving (Botol pink muda, label fuchsia) ke telapak tangan. Kemudian, tangan tersebut mulai mengoleskan lotion secara merata ke lengan. Gerakan lambat mengoleskan lotion. Latar belakang detail meja rias. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+CLOSE UP, Realistis, gaya UGC, Tangan wanita Asia (memakai atasan kaos pink muda) memencet lotion putih creamy dari botol Scarlett Loving ke telapak tangan, lalu mengoleskannya ke lengan. Fokus pada tekstur lotion. Latar belakang detail meja rias. --script "Aku nemu solusi body lotion terbaik: Scarlett Loving!" --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+CLOSE UP, Realistis, gaya UGC, Tangan wanita Asia (memakai atasan kaos pink muda) memencet lotion putih creamy dari botol Scarlett Loving (Botol pink muda, label fuchsia) ke telapak tangan. Gerakan slow motion saat lotion dioleskan dan meresap ke kulit. Latar belakang detail meja rias. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 4:
+Visual: MEDIUM CLOSE UP, Realistis, gaya UGC, Lengan wanita Asia (memakai atasan kaos pink muda) yang terlihat cerah, lembap, dan kenyal setelah aplikasi lotion. Model menunjuk ke lengannya, menunjukkan hasil kulit yang sehat. Penekanan visual pada kulit yang glowing dan terhidrasi. Latar belakang pencahayaan matahari pagi yang lembut.
+
+[Dreamina Prompt]:
+MEDIUM CLOSE UP, Realistis, gaya UGC, Lengan wanita Asia (memakai atasan kaos pink muda) yang terlihat cerah, lembap, dan kenyal setelah aplikasi lotion. Model menunjuk ke lengannya. Gerakan kamera slow motion menyorot kulit yang glowing. Latar belakang pencahayaan matahari pagi yang lembut. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+MEDIUM CLOSE UP, Realistis, gaya UGC, Lengan wanita Asia (memakai atasan kaos pink muda) terlihat cerah, lembap, dan kenyal. Model menunjuk ke lengannya. Penekanan visual pada kulit yang sehat. Latar belakang pencahayaan matahari pagi yang lembut. --script "Ada 7X Ceramide buat perkuat skin barrier, Glutathione dan Niacinamide buat mencerahkan." --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+MEDIUM CLOSE UP, Realistis, gaya UGC, Lengan wanita Asia (memakai atasan kaos pink muda) yang terlihat cerah, lembap, dan kenyal setelah aplikasi lotion. Model menunjuk ke lengannya. Gerakan kamera slow motion menunjukkan perbedaan tekstur kulit yang terhidrasi. Latar belakang pencahayaan matahari pagi yang lembut. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 5:
+Visual: MEDIUM SHOT, Realistis, gaya UGC, Wanita Asia yang ceria (memakai atasan kaos pink muda) tersenyum lebar sambil memegang botol Scarlett Loving Body Lotion (Botol pink muda, label fuchsia) dengan satu tangan dan memberikan jempol ke kamera. Ekspresi puas dan menyakinkan. Latar belakang estetik yang terang dan hangat, non-putih polos.
+
+[Dreamina Prompt]:
+MEDIUM SHOT, Realistis, gaya UGC, Wanita Asia yang ceria (memakai atasan kaos pink muda) tersenyum lebar sambil memegang botol Scarlett Loving Body Lotion (Botol pink muda, label fuchsia) dengan satu tangan dan memberikan jempol ke kamera. Gerakan kamera slow motion sedikit zoom out. Latar belakang estetik yang terang dan hangat, non-putih polos. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+MEDIUM SHOT, Realistis, gaya UGC, Wanita Asia yang ceria (memakai atasan kaos pink muda) tersenyum lebar sambil memegang botol Scarlett Loving Body Lotion (Botol pink muda, label fuchsia) dan memberikan jempol ke kamera. Ekspresi puas. Latar belakang estetik yang terang dan hangat. --script "Wanginya manis segar, dan ada UV Protection juga! Wajib coba!" --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+MEDIUM SHOT, Realistis, gaya UGC, Wanita Asia yang ceria (memakai atasan kaos pink muda) tersenyum lebar sambil memegang botol Scarlett Loving Body Lotion (Botol pink muda, label fuchsia) dengan satu tangan dan memberikan jempol ke kamera. Ekspresi puas. Gerakan kamera slow motion saat model tersenyum. Latar belakang estetik yang terang dan hangat, non-putih polos. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
