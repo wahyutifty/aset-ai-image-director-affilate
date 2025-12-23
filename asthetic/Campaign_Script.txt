@@ -1,0 +1,83 @@
+JUDUL: Rahasia kulit auto cerah dan skin barrier sehat! Body Lotion Scarlett Loving, wajib coba!
+HASHTAGS: #scarlett #bodylotion #7xceramide #brightening #skinbarrier #lovingfragrance #skincareviral
+
+==========================================
+NASKAH (SCRIPT)
+==========================================
+
+Kulit kusam dan skin barrier rusak? Ini solusinya! Scarlett Body Lotion Loving dengan 7X Ceramide dan Glutathione. Formula yang gak cuma mencerahkan tapi juga bantu perbaiki skin barrier kamu! Kulit auto lembut, cerah, dan terlindungi dari UV. Wanginya floral-fruity, bikin jatuh cinta setiap hari.
+
+==========================================
+PROMPTS VISUAL
+==========================================
+
+SHOT 1:
+Visual: Tangan wanita Asia yang halus, mengenakan lengan baju pink lembut, memegang botol Scarlett Loving Fragrance Body Lotion (Botol pink muda, label pink fuchsia, tutup pump putih). Botol diletakkan lembut di atas meja putih minimalis.
+
+[Dreamina Prompt]:
+Tangan wanita Asia yang halus, mengenakan lengan baju pink lembut, memegang botol Scarlett Loving Fragrance Body Lotion (Botol pink muda, label pink fuchsia, tutup pump putih). Botol diletakkan lembut di atas meja putih minimalis (Environment Lock). Gerakan kamera slow motion, zoom out perlahan. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+Tangan wanita Asia yang halus memegang botol Scarlett Loving Fragrance Body Lotion (Botol pink muda, label pink fuchsia). Latar belakang meja minimalis putih dengan vas krem dan bunga kering. --script "Kulit kusam dan skin barrier rusak?" --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+Tangan wanita Asia yang halus, mengenakan lengan baju pink lembut, memegang botol Scarlett Loving Fragrance Body Lotion (Botol pink muda, label pink fuchsia, tutup pump putih). Botol diletakkan lembut di atas meja putih minimalis (Environment Lock). Gerakan kamera slow motion, zoom out perlahan. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 2:
+Visual: Close up ekstrim (Extreme Macro Shot) fokus pada label produk Scarlett Body Lotion (Botol pink muda, label pink fuchsia). Tangan wanita Asia memutar botol perlahan, menyorot tulisan '7X CERAMIDE'.
+
+[Dreamina Prompt]:
+Close up ekstrim (Extreme Macro Shot) fokus pada label produk Scarlett Body Lotion (Botol pink muda, label pink fuchsia). Tangan wanita Asia memutar botol perlahan, menyorot tulisan '7X CERAMIDE'. Gerakan kamera slow motion, pan lembut. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+Extreme Close Up pada label botol Scarlett Body Lotion pink. Tangan wanita Asia memutar botol perlahan, menonjolkan klaim 7X Ceramide. --script "Ini solusinya!" --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+Close up ekstrim (Extreme Macro Shot) fokus pada label produk Scarlett Body Lotion (Botol pink muda, label pink fuchsia). Tangan wanita Asia memutar botol perlahan, menyorot tulisan '7X CERAMIDE'. Gerakan kamera slow motion, pan lembut. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 3:
+Visual: Tangan wanita Asia mem-pump tutup botol lotion Scarlett Loving (Botol pink muda, label pink fuchsia) dengan perlahan. Lotion kental warna pink muda keluar dan jatuh ke telapak tangan.
+
+[Dreamina Prompt]:
+Tangan wanita Asia mem-pump tutup botol lotion Scarlett Loving (Botol pink muda, label pink fuchsia) dengan perlahan. Lotion kental warna pink muda keluar dan jatuh ke telapak tangan. Fokus pada aksi pump. Gerakan kamera slow motion. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+Tangan wanita Asia menekan tutup pump botol Scarlett Body Lotion pink. Lotion kental warna pink muda keluar ke telapak tangan. --script "Scarlett Body Lotion Loving dengan 7X Ceramide dan Glutathione." --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+Tangan wanita Asia mem-pump tutup botol lotion Scarlett Loving (Botol pink muda, label pink fuchsia) dengan perlahan. Lotion kental warna pink muda keluar dan jatuh ke telapak tangan. Fokus pada aksi pump. Gerakan kamera slow motion. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 4:
+Visual: Close up tangan wanita Asia mengoleskan tekstur lotion pink muda (dari Botol pink muda) ke kulit tangan, menunjukkan penyerapan yang cepat dan hasil kulit yang lembap dan cerah.
+
+[Dreamina Prompt]:
+Close up tangan wanita Asia mengoleskan tekstur lotion pink muda (dari Botol pink muda) ke kulit tangan, menunjukkan penyerapan yang cepat dan hasil kulit yang lembap dan cerah. Pencahayaan lembut. Gerakan kamera slow motion, mengikuti gerakan mengoles. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+Close up tangan wanita Asia mengaplikasikan lotion pink muda ke kulit, menunjukkan kulit yang langsung lembap dan halus. --script "Formula yang gak cuma mencerahkan tapi juga bantu perbaiki skin barrier kamu!" --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+Close up tangan wanita Asia mengoleskan tekstur lotion pink muda (dari Botol pink muda) ke kulit tangan, menunjukkan penyerapan yang cepat dan hasil kulit yang lembap dan cerah. Pencahayaan lembut. Gerakan kamera slow motion, mengikuti gerakan mengoles. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
+SHOT 5:
+Visual: Tangan wanita Asia yang lembut memegang kembali botol Scarlett Loving Fragrance Body Lotion (Botol pink muda, label pink fuchsia) dengan pose yang mengagumi.
+
+[Dreamina Prompt]:
+Tangan wanita Asia yang lembut memegang kembali botol Scarlett Loving Fragrance Body Lotion (Botol pink muda, label pink fuchsia) dengan pose yang mengagumi, di latar belakang Environment Lock. Gerakan kamera slow motion, tilt up. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Grok Prompt]:
+Tangan wanita Asia memegang botol Scarlett Body Lotion pink dengan lembut. Fokus estetika pada botol dan kulit tangan yang sudah terawat. --script "Kulit auto lembut, cerah, dan terlindungi dari UV." --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+[Meta Prompt]:
+Tangan wanita Asia yang lembut memegang kembali botol Scarlett Loving Fragrance Body Lotion (Botol pink muda, label pink fuchsia) dengan pose yang mengagumi, di latar belakang Environment Lock. Gerakan kamera slow motion, tilt up. --negative_prompt gerakan berlebihan, morphing, perubahan warna baju, baju berbeda, tangan aneh, distorsi
+
+------------------------------------------
+
