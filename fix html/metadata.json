@@ -1,0 +1,7 @@
+{
+  "name": "AI Virtual Detector PRO",
+  "description": "A cutting-edge AI-powered marketing tool that transforms product photos into viral video scripts and cinematic storyboards using the Gemini API.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
